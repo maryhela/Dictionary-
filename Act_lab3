@@ -1,0 +1,11 @@
+def check_number(num):
+    if num % 2 == 0:
+        print(f"{num} Even siya beh.")
+    else:
+        print(f"{num} Odd siya beh.")
+
+#Examples 
+check_number(22)
+check_number(21)
+check_number(-16)
+check_number(0)
