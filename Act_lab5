@@ -1,0 +1,18 @@
+def classify_age(age):
+    if 0 <= age <= 12:
+        print("A Child.")
+    elif 13 <= age <= 19:
+        print("A Teen.")
+    elif 20 <= age <= 64:
+        print("An Adult.")
+    elif age >= 65:
+        print("A Senior.")
+    else:
+        print("Ehhk invalid age!")
+
+#Examples
+classify_age(8)  
+classify_age(16) 
+classify_age(30)  
+classify_age(70) 
+classify_age(-5)
