@@ -1,0 +1,23 @@
+def assign_grade(score):
+    if 90 <= score <= 100:
+        print("Grade:A")
+    elif 80 <= score <= 89:
+        print("Grade:B")
+    elif 70 <= score <= 79:
+        print("Grade:C")
+    elif 60 <= score <= 69:
+        print("Grade:D")
+    elif 0 <= score < 60:
+        print("Grade:F")
+    else:
+        print("Invalid ngay!")
+
+#Examples
+assign_grade(98)  
+assign_grade(84)  
+assign_grade(70) 
+assign_grade(63) 
+assign_grade(48)  
+assign_grade(-2) 
+assign_grade(111) 
+
